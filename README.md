@@ -62,7 +62,7 @@ You can hardcode the parameters inside the constructor or use the application.pr
 
 To generate your OpenAI API Key visite this page
 
-{% embed https://platform.openai.com/account/api-keys %}
+https://platform.openai.com/account/api-keys
 
 Click on Create new secret key
 
