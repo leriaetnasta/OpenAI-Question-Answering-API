@@ -58,7 +58,8 @@ The most interesting property here is "text" which is a String, it will contain 
 
 
 The Input java class
-<script src="https://gist.github.com/leriaetnasta/557406831582be1bd144e6f927393c2a.js"></script>
+{% gist 557406831582be1bd144e6f927393c2a %}
+
 Since Choices in a list of Objects we will create a Choice class
 <script src="https://gist.github.com/leriaetnasta/6b3af8f06bcf27daaa5f3f7bac7734f3"></script>
 And a Usage record since we don't need a getter
