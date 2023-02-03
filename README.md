@@ -85,8 +85,8 @@ curl https://api.openai.com/v1/completions \
 
 ```
 
-This request expects a URL that points to the API
-A header that defines the content type as JSON object
+This request expects a URL that points to the API,
+A header that defines the content type as JSON object,
 An authorization header as a Bearer Token
 And the body 
  
