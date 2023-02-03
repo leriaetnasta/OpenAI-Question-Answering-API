@@ -57,20 +57,8 @@ The expected Output
 The most interesting property here is "text" which is a String, it will contain the answer to the question sent earlier to the API.
 
 
-The Input java class
-{% gist 557406831582be1bd144e6f927393c2a %}
 
-Since Choices in a list of Objects we will create a Choice class
-<script src="https://gist.github.com/leriaetnasta/6b3af8f06bcf27daaa5f3f7bac7734f3"></script>
-And a Usage record since we don't need a getter
-<script src="https://gist.github.com/leriaetnasta/1980809b9a0f505b81ddfe5d4617404d"></script>
-The Output java class
-<script src="https://gist.github.com/leriaetnasta/ce9622666b3d0ae8721227a02488fcd1"></script>
-
-
-You can hardcode the parameters inside the constructor or use the application.properties with the following variables
-
-<script src="https://gist.github.com/leriaetnasta/7e0e0168e57270effff473be06655e39.js"></script>
+You can hardcode the parameters inside the constructor or use the application.properties with the necessary variables.
 
 To generate your OpenAI API Key visite this page
 
@@ -104,15 +92,3 @@ And the body
  
 So I built an http client request that will take the parameters defined above and send it to the URI. The answer will then be returned as a Json String.
 
-<script src="https://gist.github.com/leriaetnasta/900ba4014c42c3a30e8163fc8883d740"></script>
-
-The next method takes as parameters the prompt which is a String that contains the question.
-
-Inside this method I created an Input object using the class constructor and passed it the predefined parameters along with the prompt.
-Next I passed the object to the sendChatgptRequest() method as a JSON string and map the response into an Output Object using the ObjectMapper class.
-
-<script src="https://gist.github.com/leriaetnasta/9431f311a2e17c9bc9b2b261c3db377d"></script>
-
-Inside the Rest Controller class I added a Post request 
-
-<script src="https://gist.github.com/leriaetnasta/733a9f3525e7afafbc024ccb6e030287"></script>
