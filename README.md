@@ -25,9 +25,13 @@ You can see that the post body defines some parameters some of which are optiona
 For this project I only used 4 parameters:
 
 _model_ expects a String, we will keep the same model as the example which is _text-davinci-003_ but you can check their overview for more models.
+
 _prompt_ expects a String or an Array, it will contain the question we want to ask ChatGPT.
+
 _temperature_ expects a Number.
+
 _max_tokens_ expects an Integer. 
+
 You can play around with temperature and max_tokens values but will use 4096 and 1 respectively.
 
 The expected Output 
