@@ -69,7 +69,7 @@ The Output java class
 
 You can hardcode the parameters inside the constructor or use the application.properties with the following variables
 
-<script src="https://gist.github.com/leriaetnasta/7e0e0168e57270effff473be06655e39"></script>
+<script src="https://gist.github.com/leriaetnasta/7e0e0168e57270effff473be06655e39.js"></script>
 
 To generate your OpenAI API Key visite this page
 
