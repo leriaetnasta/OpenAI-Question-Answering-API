@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="ViewCount" src="https://views.whatilearened.today/views/leriaetnasta/Openai-api.svg">
-    <a href='https://github.com/leriaetnasta/Openai-api'><img alt='GitHub Clones' src='https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/MShawon/cf89f3274d06170b8a4973039aa6220a/raw/clone.json&logo=github'></a>
-</p>
 
 # Openai-api
 This web application saves questions sent and answers retrieved from OpenAI API to a csv file.
