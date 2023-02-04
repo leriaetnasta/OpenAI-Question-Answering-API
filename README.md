@@ -1,5 +1,5 @@
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fleriaetnasta%2FOpenai-api&labelColor=%232ccce4&countColor=%23697689&style=flat)
-https://api.github.com/repos/{leriaetnasta}/{Openai-api}/traffic/clones
+https://api.github.com/repos/leriaetnasta/Openai-api/traffic/clones
 # Openai-api
 This web application saves questions sent and answers retrieved from OpenAI API to a csv file.
 
