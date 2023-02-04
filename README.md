@@ -98,3 +98,16 @@ And the body
  
 So I built an http client request that will take the parameters defined above and send it to the URI. The answer will then be returned as a Json String.
 
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7T6Z0ED7BG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7T6Z0ED7BG');
+</script>
