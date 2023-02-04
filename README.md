@@ -1,5 +1,5 @@
 # Openai-api
-This projects saves questions sent and answers retrieved from chatgpt to a csv file.
+This web application saves questions sent and answers retrieved from OpenAI API to a csv file.
 
 
 
