@@ -1,2 +1,5 @@
-package com.example.openaiapi.entities;public record Usage() {
+package com.example.openaiapi.entities;
+
+record Usage(Integer prompt_tokens, Integer completion_tokens,Integer total_tokens){
 }
+

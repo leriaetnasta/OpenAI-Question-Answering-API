@@ -4,6 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data @AllArgsConstructor
-public class PromptDto {
+public class InputDto {
     private String prompt;
 }
