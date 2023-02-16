@@ -1,7 +1,7 @@
 [![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/leriaetnasta/83b480893209b6e48ac5d5c00b79ece1/raw/clone.json&logo=github)](https://github.com/MShawon/github-clone-count-badge)
 
-# Openai-api
-The API utilizes the OpenAI API to answer user queries.
+#  OpenAI Question Answering API
+This API utilizes the OpenAI API to answer user queries.
 
 
 
