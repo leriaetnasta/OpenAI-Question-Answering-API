@@ -62,6 +62,8 @@ The expected Output
 The most interesting property here is "text" which is a String, it will contain the answer to the question sent earlier to the API.
 
 
+![exported_from_idea drawio-2](https://user-images.githubusercontent.com/61632665/219875986-8074f1a7-b606-446b-a040-a375670f7023.png)
+
 
 You can hardcode the parameters inside the constructor or use the application.properties with the necessary variables.
 
